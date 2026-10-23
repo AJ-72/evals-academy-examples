@@ -1,0 +1,17 @@
+{"match": "Arrived early and works perfectly.", "output": "Positive"}
+{"match": "Broke after two days and support never replied.", "output": "negative"}
+{"match": "It's a phone case. It holds the phone.", "output": "Neutral."}
+{"match": "Not bad at all, honestly better than I expected.", "output": "positive"}
+{"match": "Oh great, another charger that dies in a week.", "output": "positive", "note": "deliberately wrong: sarcasm, so the mock run shows a failure"}
+{"match": "Lo recomiendo, funciona muy bien.", "output": "positive"}
+{"match": "The box was damaged but the product itself is fine.", "output": "neutral"}
+{"match": "Five stars. Would buy again.", "output": "positive"}
+{"match": "capital of France", "output": "Paris."}
+{"match": "12 * 12", "output": "144"}
+{"match": "Who wrote Hamlet", "output": "William Shakespeare"}
+{"match": "The food was not great.", "output": "negative"}
+{"match": "The food was great.", "output": "positive"}
+{"match": "THE FOOD WAS GREAT.", "output": "Positive"}
+{"match": "The service was not slow and rude.", "output": "neutral"}
+{"match": "The service was slow and rude.", "output": "negative"}
+{"match": "THE SERVICE WAS SLOW AND RUDE.", "output": "negative"}

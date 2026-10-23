@@ -1,0 +1,8 @@
+{"input": "Arrived early and works perfectly.", "expected": "positive", "tags": ["clear"]}
+{"input": "Broke after two days and support never replied.", "expected": "negative", "tags": ["clear"]}
+{"input": "It's a phone case. It holds the phone.", "expected": "neutral", "tags": ["neutral"]}
+{"input": "Not bad at all, honestly better than I expected.", "expected": "positive", "tags": ["negation"]}
+{"input": "Oh great, another charger that dies in a week.", "expected": "negative", "tags": ["sarcasm"]}
+{"input": "Lo recomiendo, funciona muy bien.", "expected": "positive", "tags": ["spanish"]}
+{"input": "The box was damaged but the product itself is fine.", "expected": "neutral", "tags": ["mixed"]}
+{"input": "Five stars. Would buy again.", "expected": "positive", "tags": ["clear"]}

@@ -1,0 +1,13 @@
+{
+  "name": "evals-capstone",
+  "private": true,
+  "type": "module",
+  "description": "Evals Academy capstone starter (JavaScript). No dependencies; MODEL_PROVIDER=mock needs no key.",
+  "scripts": {
+    "eval": "node run-eval.mjs",
+    "test": "node --test eval.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,6 @@
+{"match": "I was charged twice for my subscription this month.", "output": "Billing."}
+{"match": "The app crashes every time I open the settings page.", "output": "technical"}
+{"match": "How do I change the email address on my profile?", "output": "account"}
+{"match": "Can I get a refund for the annual plan I bought yesterday?", "output": "billing"}
+{"match": "Password reset emails never arrive.", "output": "technical", "note": "deliberately wrong (account vs technical): the boundary a real model often gets wrong too"}
+{"match": "Do you have an office in Lisbon?", "output": "other"}

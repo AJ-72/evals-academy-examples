@@ -1,0 +1,7 @@
+{
+  "task": "Route the support ticket to one team. Reply with exactly one word: billing, technical, account or other.\n\nTicket: {input}",
+  "scorer": "exact",
+  "rubric": "",
+  "temperature": 0,
+  "threshold": 0.8
+}

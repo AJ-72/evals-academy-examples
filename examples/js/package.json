@@ -1,0 +1,19 @@
+{
+  "name": "evals-academy-examples",
+  "private": true,
+  "type": "module",
+  "description": "Runnable JavaScript examples for Evals Academy. MODEL_PROVIDER=mock (the default) needs no key.",
+  "scripts": {
+    "test": "node --test scorers.test.mjs && vitest run",
+    "test:eval": "cross-env RUN_EVALS=1 vitest run",
+    "first-eval": "node first-eval.mjs",
+    "metamorphic": "node metamorphic.mjs"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "vitest": "^2.1.9"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

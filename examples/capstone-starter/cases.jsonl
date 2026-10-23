@@ -1,0 +1,6 @@
+{"input": "I was charged twice for my subscription this month.", "expected": "billing"}
+{"input": "The app crashes every time I open the settings page.", "expected": "technical"}
+{"input": "How do I change the email address on my profile?", "expected": "account"}
+{"input": "Can I get a refund for the annual plan I bought yesterday?", "expected": "billing"}
+{"input": "Password reset emails never arrive.", "expected": "account"}
+{"input": "Do you have an office in Lisbon?", "expected": "other"}
