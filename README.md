@@ -1,6 +1,6 @@
 # Evals Academy examples
 
-Runnable companion code for [Evals Academy](https://evals.academy), a free course on
+Runnable companion code for [Evals Academy](https://aievalsacademy.com), a free course on
 evaluating AI features. Every lesson with code links to a file in [`examples/`](examples/).
 
 - [`examples/python/`](examples/python/) — standard-library Python 3.9+, `pytest` for the tests
