@@ -29,5 +29,11 @@ Then add a key for a real model, for example
 [examples README](examples/README.md) lists every provider, what each file covers, and how
 to run the capstone.
 
+## Questions
+
+Ask in [Discussions](https://github.com/AJ-72/evals-academy-examples/discussions): questions
+about a lesson, an example or the capstone are all welcome there, and the answers stay public
+for the next reader.
+
 This repository is published from the course's source; open an issue or use "Send feedback"
 on the course site if something here doesn't run.
