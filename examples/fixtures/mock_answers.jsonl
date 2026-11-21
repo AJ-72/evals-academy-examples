@@ -15,3 +15,6 @@
 {"match": "The service was not slow and rude.", "output": "neutral"}
 {"match": "The service was slow and rude.", "output": "negative"}
 {"match": "THE SERVICE WAS SLOW AND RUDE.", "output": "negative"}
+{"match": "I bought trainers 20 days ago.", "output": "Yes, you're within our 30-day window, so bring your receipt to any store for a full refund."}
+{"match": "I bought boots 45 days ago.", "output": "No, sorry: refunds are only possible within 30 days of purchase."}
+{"match": "I lost my receipt.", "output": "We need a receipt for a refund, but we can offer store credit instead."}

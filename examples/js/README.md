@@ -5,6 +5,7 @@ No dependencies to run the examples; Vitest only for the eval test. Node 20+.
 ```bash
 node first-eval.mjs                  # MODEL_PROVIDER=mock by default: no key, no cost
 node metamorphic.mjs                 # metamorphic relations against the same model()
+node record-replay.mjs record        # then: replay, and replay --prompt v2 to see a miss fail
 node --test scorers.test.mjs         # fast suite: scorers and stats, no model calls
 npm install && npm run test:eval     # the eval itself in Vitest (RUN_EVALS=1)
 MODEL_PROVIDER=openai OPENAI_API_KEY=sk-... node first-eval.mjs
@@ -20,6 +21,7 @@ MODEL_PROVIDER=openai OPENAI_API_KEY=sk-... node first-eval.mjs
 | `scorers.test.mjs` | Unit tests for the scorers and stats (`node --test`) | Evals in your test runner |
 | `sentiment.eval.test.mjs`, `vitest.config.mjs` | The eval as one aggregate assertion, skipped unless `RUN_EVALS=1` | Evals in your test runner |
 | `metamorphic.mjs` | Relations that must hold without a labelled answer | Metamorphic and property-based testing |
+| `record-replay.mjs` | Record each call once, replay it with zero model calls; a changed prompt fails instead of calling the model | Record, replay, and trace |
 
 Cases come from `../cases/` and mock answers from `../fixtures/`. See the
 [examples README](../README.md) for providers and the response cache.

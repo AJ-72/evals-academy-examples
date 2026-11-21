@@ -46,6 +46,7 @@ off for real measurements: a cache replays one sample forever.
 | `python/stats.py`, `js/stats.mjs` | Confidence intervals (Wilson); pass@k and pass^k |
 | `python/test_sentiment_eval.py` + `pytest.ini`, `js/sentiment.eval.test.mjs` | Evals in your test runner (one aggregate assertion, kept out of the fast suite) |
 | `python/metamorphic.py`, `js/metamorphic.mjs` | Metamorphic and property-based testing |
+| `python/record_replay.py`, `js/record-replay.mjs` | Record, replay, and trace (record once, replay with zero model calls, a changed prompt fails) |
 | `cases/sentiment.jsonl` | A small tagged golden set (partitions: negation, sarcasm, Spanish, mixed) |
 | `capstone-starter/`, `capstone-starter-js/` | The capstone: copy one into a new public repo |
 

@@ -5,6 +5,7 @@ Standard library only; `pytest` for the tests. Python 3.9+.
 ```bash
 python first_eval.py                 # MODEL_PROVIDER=mock by default: no key, no cost
 python metamorphic.py                # metamorphic relations against the same model()
+python record_replay.py record       # then: replay, and replay --prompt v2 to see a miss fail
 pip install pytest
 pytest                               # fast suite: scorers and stats, no model calls
 pytest -m eval                       # the eval itself, kept out of the fast suite
@@ -21,6 +22,7 @@ MODEL_PROVIDER=openai OPENAI_API_KEY=sk-... python first_eval.py
 | `test_scorers.py` | Unit tests for the scorers and stats | Evals in your test runner |
 | `test_sentiment_eval.py`, `pytest.ini` | The eval as one aggregate assertion behind the `eval` marker | Evals in your test runner |
 | `metamorphic.py` | Relations that must hold without a labelled answer | Metamorphic and property-based testing |
+| `record_replay.py` | Record each call once, replay it with zero model calls; a changed prompt fails instead of calling the model | Record, replay, and trace |
 
 Cases come from `../cases/` and mock answers from `../fixtures/`. See the
 [examples README](../README.md) for providers and the response cache.
